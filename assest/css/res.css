@@ -1,0 +1,131 @@
+@media screen and (max-width: 798px) {
+    body {
+        width: 790px;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    header .navbar {
+        display: none;
+    }
+
+    .icon-menu {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0%;
+        width: 70px;
+        height: 55px;
+        background-image: url(../image/icon/menu.png);
+        background-repeat: no-repeat;
+        background-size: 50px;
+    }
+
+    .head-item {
+        position: relative;
+        right: 40px;
+        width: 400px;
+
+    }
+
+    .carousel-control-prev-icon {
+        position: relative;
+        left: -45px;
+    }
+
+    .carousel-control-next-icon {
+        position: relative;
+        right: -40px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .row3 {
+        max-width: 790px;
+        min-width: 400px;
+        margin: 20px 0;
+        height: fit-content;
+
+    }
+
+    .row4 {
+        width: 790px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .row4 .item-row4 {
+        width: 380px;
+        height: 400px;
+
+    }
+
+    .row4 .item-row4 section {
+        width: 100%;
+        position: relative;
+        top: 0;
+        right: 0;
+
+    }
+
+    .row4 .item-row4 div {
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+        margin: 0;
+
+    }
+
+    .head-row5 {
+        display: none;
+    }
+
+    .row5 {
+        width: 790px;
+    }
+
+    .item-row6-2 {
+        display: none;
+    }
+
+    .row7 {
+        display: none;
+    }
+
+    .row8 {
+        width: 770px;
+    }
+
+    .row8 div {
+        /* position: relative; */
+        /* top: px; */
+        margin: 70px 0 0 0;
+    }
+
+    .row8 div h2 {
+        width: 300px;
+    }
+
+    footer {
+        width: 780px;
+        height: 400px;
+    }
+
+    footer section {
+        display: inline-block;
+        position: relative;
+        left: 240px;
+    }
+
+    footer .ulli {
+        width: 750px;
+        text-align: center;
+    }
+
+}
