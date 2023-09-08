@@ -9,6 +9,34 @@
 
     header .navbar {
         display: none;
+        
+    }
+    header .navbar >ul{
+        display: block;
+        position: relative;
+        width: 200px;
+        left: 410px;
+        top: 50px;
+        z-index: 555;
+        background-color: #fff;
+        /* left: 500px; */
+        border-radius: 15px;
+        padding: 15px;
+    }
+    header .navbar >ul> li{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        left: -35px;
+    }
+    header .navbar >ul> li:active{
+        background-color: #79cde5;
+        width: 100%;
+        border-radius: 10px;
+        /* margin: 5px; */
+    }
+    .navbar ul>li.dropdown:hover>ul{
+        display: none;
     }
 
     .icon-menu {

@@ -6850,7 +6850,12 @@ fieldset:disabled .btn {
     margin-right: -100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    transition: transform .6s ease-in-out
+    transition: transform .6s ease-in-out;
+    border-radius: 15px;
+}
+.carousel-item>img{
+    border-radius: 15px;
+    width: 100%;
 }
 
 @media (prefers-reduced-motion:reduce) {
@@ -6879,6 +6884,7 @@ fieldset:disabled .btn {
     opacity: 0;
     transition-property: opacity;
     transform: none
+    
 }
 
 .carousel-fade .carousel-item-next.carousel-item-start,
@@ -6914,11 +6920,11 @@ fieldset:disabled .btn {
     justify-content: center;
     width: 15%;
     padding: 0;
-    color: #fff;
+    color: #f8f9fa;
     text-align: center;
     background: 0 0;
     border: 0;
-    opacity: .5;
+    /* opacity: .5; */
     transition: opacity .15s ease
 }
 
@@ -6934,7 +6940,7 @@ fieldset:disabled .btn {
 .carousel-control-next:hover,
 .carousel-control-prev:focus,
 .carousel-control-prev:hover {
-    color: #fff;
+    color: #f8f9fa;
     text-decoration: none;
     outline: 0;
     opacity: .9
@@ -6959,11 +6965,11 @@ fieldset:disabled .btn {
 }
 
 .carousel-control-prev-icon {
-    background-image: url("../../../../image/icon/icons8-prev-64.png")
+    background-image: url("../../../../image/icon/prev3.png")
 }
 
 .carousel-control-next-icon {
-    background-image: url("../../../../image/icon/icons8-next-page-64.png")
+    background-image: url("../../../../image/icon/next3.png")
 }
 
 .carousel-indicators {
